@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>612store | Exclusive Sneakers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .hero-gradient { background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%); }
+        .card:hover { transform: translateY(-10px); transition: all 0.3s ease; }
+    </style>
+</head>
+<body class="bg-gray-50">
 
+    <nav class="p-6 bg-black text-white flex justify-between items-center sticky top-0 z-50">
+        <h1 class="text-2xl font-black tracking-tighter">612STORE</h1>
+        <div class="space-x-6 font-bold text-sm uppercase">
+            <a href="#" class="hover:text-red-500">Nuevos</a>
+            <a href="#" class="hover:text-red-500">Modelos</a>
+            <a href="#" class="border-2 border-white px-4 py-2 hover:bg-white hover:text-black">Contacto</a>
+        </div>
+    </nav>
+
+    <header class="hero-gradient text-white py-20 px-10 text-center">
+        <h2 class="text-6xl md:text-8xl font-black mb-4 italic uppercase tracking-tighter">Step into the future</h2>
+        <p class="text-gray-400 text-xl mb-8">La mejor selección de Sneakers exclusivos en 612store.</p>
+        <a href="#catalogo" class="bg-white text-black font-black px-8 py-4 rounded-full hover:bg-red-500 hover:text-white transition">VER CATÁLOGO</a>
+    </header>
+
+    <section id="catalogo" class="max-w-7xl mx-auto py-20 px-6">
+        <h3 class="text-3xl font-black mb-12 uppercase border-b-4 border-black inline-block">Modelos Disponibles</h3>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            
+            <div class="card bg-white p-4 shadow-xl rounded-2xl">
+                <div class="bg-gray-200 h-64 rounded-xl mb-4 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=600" alt="Tenis" class="w-full h-full object-cover">
+                </div>
+                <h4 class="text-xl font-black uppercase">Retro Red High</h4>
+                <p class="text-gray-500 mb-4">Edición Especial</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-2xl font-bold text-red-600">$2,499</span>
+                    <button class="bg-black text-white px-4 py-2 rounded-lg font-bold text-sm">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="card bg-white p-4 shadow-xl rounded-2xl">
+                <div class="bg-gray-200 h-64 rounded-xl mb-4 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=600" alt="Tenis" class="w-full h-full object-cover">
+                </div>
+                <h4 class="text-xl font-black uppercase">Urban Shadow</h4>
+                <p class="text-gray-500 mb-4">Running Collection</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-2xl font-bold text-red-600">$1,850</span>
+                    <button class="bg-black text-white px-4 py-2 rounded-lg font-bold text-sm">COMPRAR</button>
+                </div>
+            </div>
+
+            <div class="card bg-white p-4 shadow-xl rounded-2xl">
+                <div class="bg-gray-200 h-64 rounded-xl mb-4 overflow-hidden">
+                    <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=600" alt="Tenis" class="w-full h-full object-cover">
+                </div>
+                <h4 class="text-xl font-black uppercase">Pure White Gold</h4>
+                <p class="text-gray-500 mb-4">Streetwear</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-2xl font-bold text-red-600">$3,200</span>
+                    <button class="bg-black text-white px-4 py-2 rounded-lg font-bold text-sm">COMPRAR</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-10 text-center">
+        <p class="font-bold">© 2026 612STORE - Todos los derechos reservados</p>
+    </nav>
+
+</body>
+</html>
