@@ -13,12 +13,12 @@
         .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(15px); border: 1px solid rgba(255,255,255,0.1); }
         .card-sneaker:hover { transform: translateY(-12px); border-color: #ff3e3e; box-shadow: 0 10px 30px rgba(255, 62, 62, 0.2); }
         .btn-gradient { background: linear-gradient(90deg, #ff3e3e, #ff0055); transition: 0.3s; }
-        .float-ws { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; padding: 15px; rounded-full; z-index: 100; box-shadow: 0 4px 15px rgba(0,0,0,0.3); border-radius: 50%; }
+        .float-ws { position: fixed; bottom: 20px; right: 20px; background: #25d366; color: white; padding: 15px; z-index: 100; box-shadow: 0 4px 15px rgba(0,0,0,0.3); border-radius: 50%; }
     </style>
 </head>
 <body>
 
-    <a href="https://wa.me/tu-numero-aqui" class="float-ws hover:scale-110 transition-all">
+    <a href="https://wa.me/5210000000000?text=Hola%20612STORE,%20vengo%20de%20la%20página%20web%20y%20tengo%20una%20duda." class="float-ws hover:scale-110 transition-all">
         <svg width="30" height="30" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.313 1.592 5.448 0 9.886-4.438 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 1.93.524 3.355 1.529 5.023l-.958 3.498 3.597-.944z"/></svg>
     </a>
 
@@ -33,83 +33,64 @@
 
     <section id="novedades" class="relative h-screen flex items-center justify-center">
         <div class="absolute inset-0 z-0">
-            <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?auto=format&fit=crop&w=1500" class="w-full h-full object-cover opacity-20" alt="Nike">
+            <img src="https://images.unsplash.com/photo-1556906781-9a412961c28c?w=1500" class="w-full h-full object-cover opacity-20" alt="Nike">
         </div>
         <div class="relative z-10 text-center px-4">
-            <span class="text-red-500 font-bold tracking-[0.3em] uppercase mb-4 block">Tendencia 2026</span>
-            <h1 class="text-6xl md:text-9xl font-brand mb-6 uppercase leading-none">ESTILO <br> <span class="text-transparent" style="-webkit-text-stroke: 1px white;">SIN LÍMITES</span></h1>
-            <a href="#catalogo" class="btn-gradient px-12 py-4 rounded-full font-bold inline-block hover:scale-105 transition">VER TODOS LOS MODELOS</a>
+            <span class="text-red-500 font-bold tracking-[0.3em] uppercase mb-4 block text-sm">Temporada 2026</span>
+            <h1 class="text-6xl md:text-9xl font-brand mb-6 uppercase leading-none">PISA CON <br> <span class="text-transparent" style="-webkit-text-stroke: 1px white;">FUERZA</span></h1>
+            <a href="#catalogo" class="btn-gradient px-12 py-4 rounded-full font-bold inline-block hover:scale-105 transition">VER CATÁLOGO</a>
         </div>
     </section>
 
     <section id="catalogo" class="py-24 px-6 max-w-7xl mx-auto">
-        <h2 class="text-4xl font-brand uppercase mb-12 text-center">Nuestros Modelos <span class="text-red-600">Top</span></h2>
+        <h2 class="text-4xl font-brand uppercase mb-12 text-center">Catálogo <span class="text-red-600">Premium</span></h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
             
-            <div class="card-sneaker glass p-4 rounded-3xl transition-all duration-300 border border-transparent">
-                <div class="h-64 flex items-center justify-center overflow-hidden rounded-2xl mb-4 bg-white/5">
-                    <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=500" class="w-full h-full object-contain" alt="Nike 270">
-                </div>
+            <div class="card-sneaker glass p-4 rounded-3xl border border-transparent transition-all">
+                <img src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?w=500" class="w-full h-64 object-contain mb-4 rounded-2xl bg-white/5" alt="Nike 270">
                 <h3 class="font-bold text-lg uppercase">Nike 270 Air Max Negros</h3>
                 <p class="text-red-500 font-bold text-2xl mb-4">$1,400.00</p>
-                <button class="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-red-600 hover:text-white transition uppercase text-sm">Comprar Ahora</button>
+                <a href="https://wa.me/5210000000000?text=Hola%20612STORE,%20quiero%20los%20Nike%20270%20Air%20Max%20Negros" class="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-red-600 hover:text-white transition uppercase text-sm block text-center">Comprar por WhatsApp</a>
             </div>
 
-            <div class="card-sneaker glass p-4 rounded-3xl transition-all duration-300 border border-transparent">
-                <div class="h-64 flex items-center justify-center overflow-hidden rounded-2xl mb-4 bg-white/5">
-                    <img src="https://images.unsplash.com/photo-1582921017967-79d1cb6702ee?w=500" class="w-full h-full object-contain" alt="Balenciaga Speed">
-                </div>
+            <div class="card-sneaker glass p-4 rounded-3xl border border-transparent transition-all">
+                <img src="https://images.unsplash.com/photo-1582921017967-79d1cb6702ee?w=500" class="w-full h-64 object-contain mb-4 rounded-2xl bg-white/5" alt="Balenciaga">
                 <h3 class="font-bold text-lg uppercase">Balenciaga Speed Negros</h3>
                 <p class="text-red-500 font-bold text-2xl mb-4">$1,400.00</p>
-                <button class="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-red-600 hover:text-white transition uppercase text-sm">Comprar Ahora</button>
+                <a href="https://wa.me/5210000000000?text=Hola%20612STORE,%20quiero%20los%20Balenciaga%20Speed%20Negros" class="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-red-600 hover:text-white transition uppercase text-sm block text-center">Comprar por WhatsApp</a>
             </div>
 
-            <div class="card-sneaker glass p-4 rounded-3xl transition-all duration-300 border border-transparent">
-                <div class="h-64 flex items-center justify-center overflow-hidden rounded-2xl mb-4 bg-white/5">
-                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" class="w-full h-full object-contain" alt="720 Tortuga">
-                </div>
+            <div class="card-sneaker glass p-4 rounded-3xl border border-transparent transition-all">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" class="w-full h-64 object-contain mb-4 rounded-2xl bg-white/5" alt="720 Tortuga">
                 <h3 class="font-bold text-lg uppercase">720 Air Max Tortuga</h3>
                 <p class="text-red-500 font-bold text-2xl mb-4">$1,400.00</p>
-                <button class="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-red-600 hover:text-white transition uppercase text-sm">Comprar Ahora</button>
+                <a href="https://wa.me/5210000000000?text=Hola%20612STORE,%20quiero%20los%20720%20Air%20Max%20Tortuga" class="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-red-600 hover:text-white transition uppercase text-sm block text-center">Comprar por WhatsApp</a>
             </div>
 
-            <div class="card-sneaker glass p-4 rounded-3xl transition-all duration-300 border border-transparent">
-                <div class="h-64 flex items-center justify-center overflow-hidden rounded-2xl mb-4 bg-white/5">
-                    <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500" class="w-full h-full object-contain" alt="720 Lisos">
-                </div>
+            <div class="card-sneaker glass p-4 rounded-3xl border border-transparent transition-all">
+                <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=500" class="w-full h-64 object-contain mb-4 rounded-2xl bg-white/5" alt="720 Lisos">
                 <h3 class="font-bold text-lg uppercase">720 Air Max Lisos Nike</h3>
                 <p class="text-red-500 font-bold text-2xl mb-4">$1,400.00</p>
-                <button class="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-red-600 hover:text-white transition uppercase text-sm">Comprar Ahora</button>
+                <a href="https://wa.me/5210000000000?text=Hola%20612STORE,%20quiero%20los%20720%20Air%20Max%20Lisos%20Nike" class="w-full bg-white text-black py-3 rounded-xl font-bold hover:bg-red-600 hover:text-white transition uppercase text-sm block text-center">Comprar por WhatsApp</a>
             </div>
 
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Jordan Retro 4 "Midnight"</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Yeezy Boost 350 Onyx</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Dunk Low Panda</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Air Force 1 White</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Forum Low Adidas</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">VaporMax Evo</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">New Balance 550</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Travis Scott Olive</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Air Max 90 Terrascape</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
-            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Rick Owens Ramones</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><button class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs">Comprar</button></div>
+            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Jordan Retro 4</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><a href="https://wa.me/5210000000000?text=Quiero%20los%20Jordan%20Retro%204" class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs block text-center">Comprar</a></div>
+            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Yeezy Boost 350</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><a href="https://wa.me/5210000000000?text=Quiero%20los%20Yeezy%20350" class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs block text-center">Comprar</a></div>
+            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Dunk Low Panda</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><a href="https://wa.me/5210000000000?text=Quiero%20los%20Dunk%20Panda" class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs block text-center">Comprar</a></div>
+            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Air Force 1</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><a href="https://wa.me/5210000000000?text=Quiero%20los%20Air%20Force%201" class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs block text-center">Comprar</a></div>
+            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Forum Low</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><a href="https://wa.me/5210000000000?text=Quiero%20los%20Forum%20Low" class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs block text-center">Comprar</a></div>
+            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">New Balance 550</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><a href="https://wa.me/5210000000000?text=Quiero%20los%20NB%20550" class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs block text-center">Comprar</a></div>
+            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Travis Scott</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><a href="https://wa.me/5210000000000?text=Quiero%20los%20Travis%20Scott" class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs block text-center">Comprar</a></div>
+            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">VaporMax</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><a href="https://wa.me/5210000000000?text=Quiero%20los%20VaporMax" class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs block text-center">Comprar</a></div>
+            <div class="card-sneaker glass p-4 rounded-3xl"><div class="h-48 mb-4 bg-white/5 rounded-xl"></div><h3 class="font-bold uppercase">Air Max 90</h3><p class="text-red-500 font-bold text-xl">$1,400.00</p><a href="https://wa.me/5210000000000?text=Quiero%20los%20Air%20Max%2090" class="w-full mt-4 bg-white text-black py-2 rounded-lg font-bold uppercase text-xs block text-center">Comprar</a></div>
 
         </div>
     </section>
 
-    <section id="contacto" class="py-24 bg-white text-black px-6 text-center">
-        <h2 class="text-5xl font-brand mb-4 uppercase">¿Buscas algo más?</h2>
-        <p class="text-gray-500 mb-12">Escríbenos por WhatsApp o déjanos un mensaje para pedidos especiales.</p>
-        <form class="max-w-2xl mx-auto space-y-4">
-            <input type="text" placeholder="Tu Nombre" class="w-full p-4 border-2 border-black focus:bg-gray-100 outline-none font-bold">
-            <textarea placeholder="¿En qué modelo estás interesado?" class="w-full p-4 border-2 border-black h-32 outline-none font-bold"></textarea>
-            <button type="button" onclick="alert('Enviando pedido...')" class="w-full bg-black text-white py-4 font-black uppercase tracking-widest hover:bg-red-600 transition">Enviar Pedido</button>
-        </form>
-    </section>
-
-    <footer class="py-12 text-center text-gray-600 border-t border-white/10">
-        <p class="font-brand text-white mb-2">612STORE © 2026</p>
-        <p>Expertos en Calzado de Moda</p>
+    <footer id="contacto" class="py-12 text-center text-gray-500 border-t border-white/10">
+        <p class="font-brand text-white mb-2 text-xl">612STORE</p>
+        <p>Envíos a todo el país | Lo mejor en calzado 2026</p>
     </footer>
 
 </body>
